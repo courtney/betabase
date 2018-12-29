@@ -1,0 +1,52 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec/pre_commit/spec/pre_commit
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+pre_commit_spec.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+417c222858e470ae184ff41078ce17ee
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+rspec_on_rails_spec.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+6fec90bddb0d48ef731678b64898d7b4
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+

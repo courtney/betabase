@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example
+END
+rails_example_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/rails_example_group.rb
+END
+view_example_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/view_example_group.rb
+END
+ivar_proxy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/ivar_proxy.rb
+END
+helper_example_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/helper_example_group.rb
+END
+render_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/render_observer.rb
+END
+model_example_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/model_example_group.rb
+END
+functional_example_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/functional_example_group.rb
+END
+controller_example_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/controller_example_group.rb
+END
+assigns_hash_proxy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example/assigns_hash_proxy.rb
+END

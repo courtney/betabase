@@ -1,0 +1,52 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec/stories/resources/helpers
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+story_helper.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+22ec60c8d188fd4ba35668d5f4bfdc0b
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+cmdline.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+42de2716a49f8f6effd802e501bbb7c7
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+

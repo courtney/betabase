@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story
+END
+extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/extensions.rb
+END
+story.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/story.rb
+END
+scenario.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/scenario.rb
+END
+step_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/step_group.rb
+END
+world.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/world.rb
+END
+runner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/runner.rb
+END
+step_mother.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/step_mother.rb
+END
+given_scenario.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/given_scenario.rb
+END
+step.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/step.rb
+END

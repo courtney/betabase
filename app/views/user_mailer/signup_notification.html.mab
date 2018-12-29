@@ -1,0 +1,8 @@
+text 'Your account has been created.'
+
+  text 'Username:' 
+	text @user.login
+
+text 'Visit this url to activate your account:'
+
+text @url

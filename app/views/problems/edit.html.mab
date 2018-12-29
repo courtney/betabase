@@ -1,0 +1,7 @@
+h1 "Edit #{@problem.name}"
+
+render :partial => 'form'
+
+link_to('Show', @problem) 
+text ' | '
+link_to('Back', problems_path)

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/betabase/!svn/ver/9/trunk/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/betabase/!svn/ver/1/trunk/config/initializers/inflections.rb
+END
+mail.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/betabase/!svn/ver/2/trunk/config/initializers/mail.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/betabase/!svn/ver/9/trunk/config/initializers/mime_types.rb
+END

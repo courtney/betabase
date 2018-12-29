@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/betabase/!svn/ver/10/trunk/lib
+END
+authenticated_test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/betabase/!svn/ver/1/trunk/lib/authenticated_test_helper.rb
+END
+smtp_ssl.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/betabase/!svn/ver/10/trunk/lib/smtp_ssl.rb
+END
+authenticated_system.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/betabase/!svn/ver/1/trunk/lib/authenticated_system.rb
+END

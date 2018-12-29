@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/betabase/!svn/ver/9/trunk/db/migrate
+END
+004_create_permissions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/betabase/!svn/ver/1/trunk/db/migrate/004_create_permissions.rb
+END
+002_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/betabase/!svn/ver/1/trunk/db/migrate/002_create_users.rb
+END
+001_create_problems.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/betabase/!svn/ver/1/trunk/db/migrate/001_create_problems.rb
+END
+006_add_problems_versions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/betabase/!svn/ver/9/trunk/db/migrate/006_add_problems_versions.rb
+END
+003_create_roles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/betabase/!svn/ver/1/trunk/db/migrate/003_create_roles.rb
+END
+005_change_grades_to_int.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/betabase/!svn/ver/1/trunk/db/migrate/005_change_grades_to_int.rb
+END

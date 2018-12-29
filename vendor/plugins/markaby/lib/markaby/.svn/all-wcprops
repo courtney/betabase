@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/lib/markaby
+END
+tags.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/lib/markaby/tags.rb
+END
+kernel_method.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/lib/markaby/kernel_method.rb
+END
+metaid.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/lib/markaby/metaid.rb
+END
+builder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/lib/markaby/builder.rb
+END
+cssproxy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/lib/markaby/cssproxy.rb
+END
+rails.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/lib/markaby/rails.rb
+END
+template.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/lib/markaby/template.rb
+END

@@ -1,0 +1,94 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec/examples/stories
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+adder.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+5dc243d560fad04e81dcc4010efd54c5
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+helper.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+fdd0b145f188f95f2a80d0316024736f
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+game-of-life
+dir
+
+addition
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+2c4eeed776fbe2a992ac4254ba8200f8
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+calculator.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+513c9ed4e3043a3f0f9eb734066196a9
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+addition.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+b8df8dfe6df75c7647ee35b7804fbf7f
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+steps
+dir
+

@@ -1,0 +1,94 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec_on_rails
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+Rakefile
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+739de93985df731408dc32643c5d577a
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+spec_resources
+dir
+
+tasks
+dir
+
+init.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+640f74b8156893c1bc98a2050c8589d3
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+lib
+dir
+
+stories
+dir
+
+generators
+dir
+
+MIT-LICENSE
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+313081092d4b1e5f1e1a72e356485c1a
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+spec
+dir
+
+README
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+7f43e7742115780c1cca395e6d7b4424
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+

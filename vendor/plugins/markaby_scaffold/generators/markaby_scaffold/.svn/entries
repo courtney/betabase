@@ -1,0 +1,55 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+markaby_scaffold_generator.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+c746e35bac7c5d780e96dea0e23774d5
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+USAGE
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+fcedba60a19e3d1576e9cf4bf1a5f44e
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+templates
+dir
+

@@ -1,0 +1,28 @@
+h1 "History for #{@problem.name}"
+div.span_24 do
+  table.information do
+    tr do
+      th 'Grade'
+		  th 'Alternative Grades'
+      th 'Feature'
+      th 'Exposure'
+      th 'Morphological?'
+    end
+		for version in @problem.versions.reverse				
+	    tr do
+				th :colspan => 5 do
+					link_to "Version #{version.version}", :action => 'show', :version_id => version.version, :id => @problem						
+				end
+  		end
+	    tr do
+		    td.border @problem.grade
+	      if @problem.grade_alt
+	        td "V#{@problem.grade_alt.nil? ? 'n/a' : @problem.grade_alt}"
+				end
+	      td @problem.feature
+	      td @problem.exposure
+	      td (@problem.morph == 0 || @problem.morph.nil?) ? 'no' : "yes"
+	    end
+		end
+  end
+end

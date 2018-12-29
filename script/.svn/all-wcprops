@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/betabase/!svn/ver/4/trunk/script
+END
+spec_server
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/betabase/!svn/ver/4/trunk/script/spec_server
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/betabase/!svn/ver/1/trunk/script/console
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/betabase/!svn/ver/1/trunk/script/server
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/betabase/!svn/ver/1/trunk/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/betabase/!svn/ver/1/trunk/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/betabase/!svn/ver/1/trunk/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/betabase/!svn/ver/1/trunk/script/generate
+END
+spec
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/betabase/!svn/ver/4/trunk/script/spec
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/betabase/!svn/ver/1/trunk/script/plugin
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/betabase/!svn/ver/10/trunk/db
+END
+schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/betabase/!svn/ver/9/trunk/db/schema.rb
+END
+betabase_dump.csv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/betabase/!svn/ver/10/trunk/db/betabase_dump.csv
+END
+development.sqlite3
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/betabase/!svn/ver/1/trunk/db/development.sqlite3
+END

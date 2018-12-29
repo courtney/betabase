@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/test/rails
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/test/rails/test_helper.rb
+END
+monkeys.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/test/rails/monkeys.html
+END
+test_preamble.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby/test/rails/test_preamble.rb
+END

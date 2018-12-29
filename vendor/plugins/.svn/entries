@@ -1,0 +1,52 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-30T19:30:09.759645Z
+9
+betabase
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+acts_as_state_machine
+dir
+
+attachment_fu
+dir
+
+rspec_on_rails
+dir
+
+restful_authentication
+dir
+
+markaby
+dir
+
+markaby_scaffold
+dir
+
+acts_as_versioned
+dir
+
+rspec
+dir
+

@@ -1,0 +1,67 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/lib
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-09-18T07:34:43.044502Z
+10
+ingar
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+authenticated_test_helper.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+d0ca5663f200a5f7c1e5a8c9720f2a98
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+tasks
+dir
+
+smtp_ssl.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+0712fac326fef626d4171d06d7689184
+2008-09-18T07:34:43.044502Z
+10
+ingar
+
+authenticated_system.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+3b973b49691100fb06d9a36dcf0d0a7c
+2008-03-08T17:29:18.199283Z
+1
+betabase
+

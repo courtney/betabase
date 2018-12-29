@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails
+END
+extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/extensions.rb
+END
+story_adapter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/story_adapter.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/version.rb
+END
+matchers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/matchers.rb
+END
+example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/example.rb
+END

@@ -1,0 +1,23 @@
+tr :class=>cycle('odd', 'even') do
+  td do
+    h(user.login)
+  end
+  td do
+    h(user.email)
+  end
+  td do
+		text(user.enabled ? 'yes' : 'no')
+    unless user == current_user
+      if user.enabled
+        link_to('disable', user_path(user.id), :method => :delete)
+      else 
+        link_to('enable', enable_user_path(user.id), :method => :put)
+      end 
+    end 
+  end
+  td do
+    link_to'edit roles', user_roles_path(user) 
+  end
+end
+
+

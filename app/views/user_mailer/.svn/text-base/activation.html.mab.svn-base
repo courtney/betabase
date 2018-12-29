@@ -1,0 +1,1 @@
+text '#{@user.login}, your BetaBase account has been activated. Head on over to #{@url}'

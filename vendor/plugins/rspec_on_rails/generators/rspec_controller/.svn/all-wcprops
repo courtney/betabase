@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/generators/rspec_controller
+END
+USAGE
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/generators/rspec_controller/USAGE
+END
+rspec_controller_generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec_on_rails/generators/rspec_controller/rspec_controller_generator.rb
+END

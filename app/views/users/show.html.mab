@@ -1,0 +1,4 @@
+ h2 "User: #{h @user.login}"
+ h3 "Email: #{@user.email}"
+ p "Joined on: #{@user.created_at.to_s(:long)}"
+

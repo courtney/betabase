@@ -1,0 +1,79 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/acts_as_state_machine/test
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+test_helper.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+301c853c8eda52dd1ec6619cfbf91be0
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+acts_as_state_machine_test.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+663f06569208f92084d0bcbadddc0319
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+schema.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+d9765963286b92c8c480a4a2ec0a1468
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+database.yml
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+cee681e7379cf5e6855b1b236dd90fd7
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+fixtures
+dir
+

@@ -1,0 +1,21 @@
+h1 'Edit account'
+form_tag url_for(:action => "update") do
+	div do
+		p do
+			label 'Old Password', :for=>"old_password", :class=>"block"
+		  password_field_tag 'old_password', @old_password, :size => 45
+		end 
+		p do 
+		  label 'New Password', :for=>"password", :class=>"block"
+		  password_field_tag 'password', {}, :size => 45
+		  p.incr 'Between 4 and 40 characters'
+		end  
+		p do
+		    label 'Confirm new password', :for=>"password_confirmation",  :class=>"block"
+		    password_field_tag 'password_confirmation', {}, :size => 45
+		end
+		submit_tag 'Change password'
+	end
+end
+
+ 

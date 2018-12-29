@@ -1,0 +1,55 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/attachment_fu/test/backends
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+file_system_test.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+7a762d7c7a725dda486019e312bef8ec
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+db_file_test.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+6d4a16b53fea6219d2c1a5e49aab6e35
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+remote
+dir
+

@@ -1,0 +1,99 @@
+if (error_messages_for :problem).nil?
+  h3 'Errors'
+  ul.error do
+    li error_messages_for(:problem)
+  end
+end
+
+script :type=>'text/javascript' do
+  text <<-EOF
+    var first_ascentionists = #{@problems.map(&:fa_name).uniq.compact.to_json };
+    var features = #{@problems.map(&:feature).uniq.compact.to_json };
+    var boulders = #{@problems.map(&:boulder).uniq.compact.to_json };
+    var areas = #{@problems.map(&:area).uniq.compact.to_json };
+    $(function() {
+      $('#problem_fa_name').autocomplete(first_ascentionists);
+      $('#problem_feature').autocomplete(features);
+      $('#problem_boulder').autocomplete(boulders);
+      $('#problem_area').autocomplete(areas);
+    });
+  EOF
+end
+form_for(@problem) do |f|
+  fieldset do
+    ol do
+      li do
+				text f.label :name	  
+				text f.text_field(:name)
+	  end
+	  li do
+			text f.label :grade
+			text f.text_field(:grade)
+	  end
+	  li do
+  	  text f.label :grade_alt,'Alternative Grade'	    
+			text f.text_field(:grade_alt)
+	  end
+	  li do
+			text f.label :exposure,'Exposure'
+	    text f.text_field(:exposure)
+	  end
+	  li do
+  	  text f.label :star, 'Star Rating'	      
+			text f.text_field(:star)
+  	end
+	  li do
+	    fieldset do
+		  	legend 'Is this problem height or body proportion dependent?'
+  	  	ol do
+	    		li do
+		  			text f.radio_button(:morph, true, :class => 'radio')
+		  			text f.label :morph, 'Yes'
+		  		end
+					li do
+		  			text f.radio_button(:morph, false, :class => 'radio')
+		  			text f.label :morph, 'No'
+		  		end
+				end
+		  end
+	  end
+	  	li do
+  	  	text f.label :feature
+				text f.text_field(:feature)
+	  	end
+	  	li do
+  	  	text f.label :fa_name, 'Name of First Ascentionist'
+				text f.text_field(:fa_name)
+	  	end
+	  	li do
+  	  	text f.label :fa_date,'Date of First Ascent'
+				text f.text_field(:fa_date)
+	  	end
+	  	li do
+  	  	text f.label :boulder, 'Name of Boulder' 
+				text f.text_field(:boulder)
+	  	end
+	  	li do
+  	  	text f.label :area,'Name of area'
+				text f.text_field(:area)
+	  	end
+	  	li do
+  	  	text f.label :gps,'GPS Coordinates'
+				text f.text_field(:gps)
+      end
+      text <<-EOF
+<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=37+43.278+N,+119+42.961+W&amp;ie=UTF8&amp;layer=c&amp;cbll=37.720829,-119.715268&amp;panoid=giezeTyNtz_5IE-D0ImGMw&amp;s=AARTsJqFkLatm1IW_PLjNRKAOhhyV8ak6w&amp;ll=37.722596,-119.717073&amp;spn=0.020367,0.025749&amp;z=14&amp;iwloc=addr&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=37+43.278+N,+119+42.961+W&amp;ie=UTF8&amp;layer=c&amp;cbll=37.720829,-119.715268&amp;panoid=giezeTyNtz_5IE-D0ImGMw&amp;ll=37.722596,-119.717073&amp;spn=0.020367,0.025749&amp;z=14&amp;iwloc=addr&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>      EOF
+      EOF
+
+      li do
+  	  	text f.label :boulder_directions, 'Directions to the boulder'
+				text f.text_field(:boulder_directions)
+	  	end
+	  	li do
+  	  	text f.label :problem_description, 'Description of the problem'
+				text f.text_field(:problem_description)
+	  	end
+			p { f.submit("Update", :class => 'button') }
+		end
+  end  
+end

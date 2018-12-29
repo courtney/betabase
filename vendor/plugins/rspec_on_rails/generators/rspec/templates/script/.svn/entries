@@ -1,0 +1,52 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec_on_rails/generators/rspec/templates/script
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+spec_server
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+15e21bea8c9b62ed82c47c42b960b190
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+spec
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+3b01b40d35973243f354ede2a22a43fa
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+

@@ -1,0 +1,30 @@
+h2 'Edit Your Account'
+
+p do
+  link_to 'Show Profile', user_path(@user)
+  text '|' 
+  link_to 'Change Password', change_password_path
+end
+div do
+  error_messages_for :user
+end
+
+form_for :user, :url => user_url(@user), :html => { :method => :put } do |f|
+  div do
+		table do
+			tr do
+				td 'Email'
+				td ''
+			end
+			tr do
+				td do
+					f.text_field(:email)
+				end
+				td do
+					submit_tag 'Save'
+				end
+			end
+	  end
+  end
+end
+

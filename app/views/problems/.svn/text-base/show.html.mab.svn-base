@@ -1,0 +1,77 @@
+div.edit do
+  link_to "Edit #{@problem.name}", edit_problem_path(@problem)
+  text ' | '
+  link_to('View Previous Versions', problem_path(:format => 'history'))
+  text ' | '
+  link_to('Delete', problem, :confirm => 'Are you sure?', :method => :delete)
+  text ' | '
+  link_to 'Add New Problem', new_problem_path
+end
+
+div.title do
+  h1 do
+    text @problem.name
+    text ('*' * @problem.star) if @problem.star
+  end
+  h2 "V#{@problem.grade}"
+  p @problem.problem_description if @problem.problem_description
+  em do
+    if @problem.fa_name
+      text "FA: "
+      link_to @problem.fa_name, problems_path(:problem=>{:fa_name=>@problem.fa_name})
+    end
+    text " / #{@problem.fa_date}" if @problem.fa_date
+  end
+end
+
+table.information do
+  tr do
+    th 'Stats', :colspan => 2
+  end
+  tr do
+    td.title 'Alternative Grades'
+    if @problem.grade_alt
+      td "V#{@problem.grade_alt}"
+    else
+      td "n/a"
+    end
+  end
+  tr do
+    td.title 'Feature'
+    td @problem.feature
+  end
+  tr do
+    td.title 'Exposure'
+    td @problem.exposure
+  end
+  tr.last do
+    td.title 'Morphological?'
+    td (@problem.morph == 0 || @problem.morph.nil?) ? 'no' : "yes"
+  end
+end
+
+table.information.last do
+  tr do
+    th 'Location', :colspan => 2
+  end
+  tr do
+    td.title 'Area'
+    td do
+      link_to @problem.area, problems_path(:problem=>{:area=>@problem.area})
+    end
+  end
+  tr do
+    td.title 'Boulder Name'
+    td @problem.boulder
+  end
+  tr.last do
+    td.title 'Directions to Boulder'
+    td do
+      p @problem.boulder_directions
+      p @gps
+    end
+  end
+
+end
+
+

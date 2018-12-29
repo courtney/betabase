@@ -1,0 +1,9 @@
+h1 'Forgot password'
+
+form_tag url_for(:action => 'create') do
+	fieldset do
+  	p 'What is the email address used to create your account?'
+	  text_field_tag :email, "", :size => 50
+	  submit_tag 'Reset Password'
+	end
+end

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/betabase/!svn/ver/1/trunk/app/helpers
+END
+accounts_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/betabase/!svn/ver/1/trunk/app/helpers/accounts_helper.rb
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/betabase/!svn/ver/1/trunk/app/helpers/users_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/betabase/!svn/ver/1/trunk/app/helpers/application_helper.rb
+END
+problems_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/betabase/!svn/ver/1/trunk/app/helpers/problems_helper.rb
+END
+roles_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/betabase/!svn/ver/1/trunk/app/helpers/roles_helper.rb
+END
+passwords_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/betabase/!svn/ver/1/trunk/app/helpers/passwords_helper.rb
+END
+sessions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/betabase/!svn/ver/1/trunk/app/helpers/sessions_helper.rb
+END
+homes_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/betabase/!svn/ver/1/trunk/app/helpers/homes_helper.rb
+END

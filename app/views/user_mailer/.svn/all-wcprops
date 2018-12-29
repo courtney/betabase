@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/betabase/!svn/ver/10/trunk/app/views/user_mailer
+END
+activation.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/betabase/!svn/ver/1/trunk/app/views/user_mailer/activation.html.mab
+END
+reset_password.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/betabase/!svn/ver/1/trunk/app/views/user_mailer/reset_password.html.mab
+END
+signup_notification.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/betabase/!svn/ver/10/trunk/app/views/user_mailer/signup_notification.html.mab
+END

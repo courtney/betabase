@@ -1,0 +1,106 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/acts_as_versioned
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-30T19:30:09.759645Z
+9
+betabase
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+test
+dir
+
+RUNNING_UNIT_TESTS
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+8aae554c93cc60ef98cb3da2dd7c1b4b
+2008-03-30T19:30:09.759645Z
+9
+betabase
+
+Rakefile
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+10eeee394338003af97a9725b8071f98
+2008-03-30T19:30:09.759645Z
+9
+betabase
+
+init.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+1d117218f55938f9c75f1f814a4915d1
+2008-03-30T19:30:09.759645Z
+9
+betabase
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+3aa6f483cf322e248d4a1281160f8845
+2008-03-30T19:30:09.759645Z
+9
+betabase
+
+MIT-LICENSE
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+e4ba7226e637685b5cca7a9cc5c05af2
+2008-03-30T19:30:09.759645Z
+9
+betabase
+
+README
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+06ee73d1b4ad386b681f88b9326a0685
+2008-03-30T19:30:09.759645Z
+9
+betabase
+

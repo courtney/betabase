@@ -1,0 +1,55 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/markaby/test
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+test_markaby.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+44cecf4b3385790282479b234589a898
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+rails
+dir
+
+rails_test.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+29a88bbde3c78a8d27e3fa6eedef7c4a
+2008-03-08T17:29:18.199283Z
+1
+betabase
+

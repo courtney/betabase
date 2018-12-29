@@ -1,0 +1,18 @@
+h2.alt 'You Need an Account!'
+error_messages_for :user
+div.panel.center do
+  h3 'Sign Up'
+  form_for :user, :url => users_path do |f|
+    fieldset do
+      text f.label(:login)
+      text f.text_field(:login)
+      text f.label(:email)
+      text f.text_field(:email)
+      text f.label(:password)
+      text f.password_field(:password)
+      text f.label(:password_confirmation, 'Confirm Password')
+      text f.password_field(:password_confirmation)
+      text f.submit 'Sign up'
+    end
+  end
+end

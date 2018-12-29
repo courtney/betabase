@@ -1,0 +1,70 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec/examples/stories/game-of-life
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+life
+dir
+
+life.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+320bacea705a60f60d00e7b02579a9ec
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+behaviour
+dir
+
+.loadpath
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+f6875909ef841d761ec32d815510e3c7
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+README.txt
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+1f5974dc8d085a82a10780fb618854b1
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+

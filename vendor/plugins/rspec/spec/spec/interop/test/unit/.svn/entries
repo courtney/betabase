@@ -1,0 +1,79 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec/spec/spec/interop/test/unit
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+testsuite_adapter_spec.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+aed312e75665726bc492596d26bc2083
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+spec_spec.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+09eef1d43f5a34e0f658a7ef99117ed2
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+testcase_spec.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+c94af4d61c61b688878795fb896e7892
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+test_unit_spec_helper.rb
+file
+
+
+
+
+2008-09-19T15:20:58.000000Z
+7ee19cfa1889054398684a7b4858b99f
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+resources
+dir
+

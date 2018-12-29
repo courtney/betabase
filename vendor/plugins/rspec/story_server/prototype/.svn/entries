@@ -1,0 +1,49 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec/story_server/prototype
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+lib
+dir
+
+javascripts
+dir
+
+stories.html
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+4600ab4c6382d58a7b35a63d451227a1
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+stylesheets
+dir
+

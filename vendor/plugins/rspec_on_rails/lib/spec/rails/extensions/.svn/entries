@@ -1,0 +1,52 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/extensions
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+action_controller
+dir
+
+action_view
+dir
+
+object.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+0ccfcfc8784c2ad1b081d06a88c65be5
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+active_record
+dir
+
+spec
+dir
+

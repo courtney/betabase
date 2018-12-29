@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/expectations/extensions
+END
+string_and_symbol.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/expectations/extensions/string_and_symbol.rb
+END
+object.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/expectations/extensions/object.rb
+END

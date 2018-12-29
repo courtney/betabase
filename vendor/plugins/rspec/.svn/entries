@@ -1,0 +1,169 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+plugins
+dir
+
+Rakefile
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+fe0bdebec444ff76bcec7aecda12d6bb
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+.autotest
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+b1da8089d1b3b0e7ef157fc16006fc12
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+UPGRADE
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+7c6a282a2aa450843d5fe1df451b5bca
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+rake_tasks
+dir
+
+stories
+dir
+
+spec
+dir
+
+README
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+1872a0f95b3e0cdc116eab7eb42499a6
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+pre_commit
+dir
+
+init.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+640f74b8156893c1bc98a2050c8589d3
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+TODO
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+9240f876e995169975411eebfbd9fbda
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+story_server
+dir
+
+lib
+dir
+
+failing_examples
+dir
+
+autotest
+dir
+
+bin
+dir
+
+CHANGES
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+e9c5f1268c2fe6ed07b9b6fedc15cd06
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+MIT-LICENSE
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+2503811f88b794a50b2c14c58369f754
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+examples
+dir
+
+report.html
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+fa4cf37483f626d55be5146534f71d78
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+

@@ -1,0 +1,106 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/attachment_fu
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+68b46bbdc65a11adcda8d45f2fb01610
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+init.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+449f7c7d4c594301e17cc4f188cba27e
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+48a61e49399c26b5771c0d3d4020e79e
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+amazon_s3.yml.tpl
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+be037d51d0ff671229cfda84cb28f672
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+install.rb
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+afc122a879278a1bfe5df9634907d0a4
+2008-03-08T17:29:18.199283Z
+1
+betabase
+
+README
+file
+
+
+
+
+2008-09-19T15:20:57.000000Z
+6651e00ff7825f7aa8003a8f1d1050cd
+2008-03-08T17:29:18.199283Z
+1
+betabase
+

@@ -1,0 +1,101 @@
+html do
+	head do
+		title action_name
+    # stylesheet_link_tag 'scaffold','reset','betabase', 'form'
+    # http://mbumba.cz/portfolio/
+    stylesheet_link_tag 'scaffold','reset','blueprint/screen','blueprint/plugins/fancy-type/screen.css','blueprint_customizations'
+    stylesheet_link_tag 'jquery.autocomplete.css'
+#    text '<!--[if IE]><link rel="stylesheet" href="../../blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->'
+#    text '<link rel="stylesheet" href="../../blueprint/print.css" type="text/css" media="print"><![endif]-->'
+    javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js'
+
+    javascript_include_tag 'jquery/jquery.tablesorter.min.js'
+    javascript_include_tag 'jquery/jquery.autocomplete.min.js'
+
+    javascript_include_tag '/javascripts/application.js'
+  end
+
+	body do
+		div.container do
+	    h1.logo.span_5 'BetaBase'
+			#optional: use skip nav img link here if there is lots of nav links
+	  	#a.skip_to_main! "Skip to Content", :href=>"#main", :accesskey=>"1"
+	
+			div.span_3.prepend_4.nav do
+				link_to 'PROBLEMS', problems_path
+				ul.subnav.span_8 do
+					li.span_3 do
+						link_to 'SEARCH', :href=>"#"
+					end
+					li.span_3 do
+						link_to 'ADD', new_problem_path
+					end
+				end				
+			end	
+			
+			if logged_in?		
+				div.span_3.prepend_1.nav do
+  				link_to h(current_user.login.upcase), user_path(current_user), :class=>''
+  				ul.subnav.span_8 do
+  			    li do
+      				link_to 'EDIT', edit_user_path(current_user)
+      			end
+      			li do
+      				link_to 'PASSWORD', change_password_path
+      			end      				
+  					li do
+  							text 'TICK LIST'
+  					end
+  			    li do
+  							text 'PROJECTS'
+  			    end
+  				end			
+				end
+				div.span_3.prepend_1.nav do
+  				link_to 'LOG OUT', logout_url
+				end
+				if current_user.has_role?('administrator')
+					div.span_3.prepend_1.nav do
+						link_to 'ADMIN', users_path
+					end
+	     	end
+			else
+	    	div.span_3.prepend_1.nav do
+  				link_to 'LOG IN', new_session_path		
+				end
+				div.span_3.prepend_1.nav do
+  				link_to 'SIGN UP', new_user_path		
+				end
+			end
+			hr		  	
+	  
+    
+    	if !flash[:error].nil?
+	      div.error flash[:error]
+	    end
+	    if !flash[:notice].nil?
+	      div.notice flash[:notice]
+	    end
+	    if !flash[:message].nil?  
+	      div.message flash[:message]
+	    end
+			 
+	  	div.columns! do
+		
+				if !@content_for_main.nil? 
+					div.main! do
+						@content_for_main
+					end
+				else
+					self << content_for_layout
+				end
+		
+				if !@content_for_sidebar.nil? 
+					div.sidebar! do
+						@content_for_sidebar
+					end
+				end
+			end
+		end
+  end
+end

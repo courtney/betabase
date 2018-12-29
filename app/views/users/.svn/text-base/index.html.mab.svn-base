@@ -1,0 +1,12 @@
+h2 'All Users'
+
+table do
+  tr do
+    th 'Username'
+    th 'Email'
+    th 'Enabled?'
+    th 'Roles'
+  end
+  render :partial => 'user', :collection => @users
+end
+

@@ -1,0 +1,10 @@
+div.title do
+  h1 'New problem'
+  error_messages_for 'problem'
+end
+render :partial => 'form'
+
+link_to('Show', @problem)
+text ' | '
+link_to('Back', problems_path)
+

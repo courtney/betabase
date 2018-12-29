@@ -1,0 +1,28 @@
+h2.alt 'Sign Up, Log In, Enter Your Problems'
+
+div.panel do
+  h3 'The Beta'
+  p 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.'
+end
+div.panel do
+  h3 'Log In'
+  form_tag(session_path) do
+    capture do
+      fieldset do
+        label 'Username', :for=>"login"
+        text_field_tag 'login'
+        label 'Password', :for=>"password"
+        password_field_tag 'password'
+        # Uncomment this if you want this functionality
+        # label 'Remember me:', :for=>"remember_me"
+        #     check_box_tag 'remember_me'
+        submit_tag 'Log in', :class => 'button'
+      end
+    end
+  end
+end
+
+div.panel.last do
+  h3 'Sign Up/Get Invited'
+  p 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.'
+end

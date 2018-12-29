@@ -1,0 +1,39 @@
+  div.title do
+	h1 "Listing problems"
+  end
+	table.problems_list do
+    thead do
+      tr do
+        th 'Name'
+        th 'Grade'
+        th 'Star'
+        th 'Morpho'
+        th 'Feature'
+        th 'Boulder'
+        th 'Area'
+        th ''
+      end
+    end
+
+    for problem in @problems
+	    tr do
+	      td do
+					link_to(problem.name, problem)
+					text ('*' * problem.star) if problem.star
+	      end
+		  	td.grade problem.grade
+	      td.star problem.star
+	      td problem.morph? ? 'Y' : ''
+	      td problem.feature
+	      td problem.boulder
+	      td problem.area
+	      td do 
+					link_to('Edit', edit_problem_path(problem))
+		  	end
+	    end
+	  end
+	end
+
+br
+  
+link_to('New problem', new_problem_path, :class => "button")

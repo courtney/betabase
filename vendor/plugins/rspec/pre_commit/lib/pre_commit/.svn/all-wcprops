@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/pre_commit/lib/pre_commit
+END
+pre_commit.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/pre_commit/lib/pre_commit/pre_commit.rb
+END
+rspec_on_rails.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/pre_commit/lib/pre_commit/rspec_on_rails.rb
+END
+core.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/pre_commit/lib/pre_commit/core.rb
+END
+rspec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/pre_commit/lib/pre_commit/rspec.rb
+END

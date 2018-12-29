@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates
+END
+view_edit.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/view_edit.html.mab
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/helper.rb
+END
+view_index.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/view_index.html.mab
+END
+functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/functional_test.rb
+END
+view_new.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/view_new.html.mab
+END
+controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/controller.rb
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/style.css
+END
+view_show.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/view_show.html.mab
+END
+layout.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/layout.html.mab
+END

@@ -1,0 +1,52 @@
+8
+
+dir
+10
+http://svn2.assembla.com/svn/betabase/trunk/vendor/plugins/rspec/lib/spec/rake
+http://svn2.assembla.com/svn/betabase
+
+
+
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8f7cbc4e-d821-48fb-b665-6de9fca9247a
+
+spectask.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+ef6a454bd881373256c71583318b4619
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+
+verify_rcov.rb
+file
+
+
+
+
+2008-09-19T15:20:59.000000Z
+fee5b1b6f8c6724e94a4074cb95a0e0b
+2008-03-29T03:48:50.033491Z
+3
+randypuro
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/extensions
+END
+main.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/extensions/main.rb
+END
+string.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/extensions/string.rb
+END
+regexp.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/betabase/!svn/ver/3/trunk/vendor/plugins/rspec/lib/spec/story/extensions/regexp.rb
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/test_helper.rb
+END
+basic_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/basic_test.rb
+END
+schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/schema.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/database.yml
+END
+base_attachment_tests.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/base_attachment_tests.rb
+END
+amazon_s3.yml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/amazon_s3.yml
+END
+validation_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/validation_test.rb
+END
+extra_attachment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/extra_attachment_test.rb
+END
+geometry_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/betabase/!svn/ver/1/trunk/vendor/plugins/attachment_fu/test/geometry_test.rb
+END

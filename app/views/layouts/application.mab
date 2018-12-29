@@ -1,0 +1,68 @@
+html do
+	head do
+		title action_name
+    # stylesheet_link_tag 'scaffold','reset','betabase', 'form'
+    stylesheet_link_tag 'reset','application','form','blueprint/plugins/fancy-type/screen.css'
+    # text '<!--[if IE]><link rel="stylesheet" href="../../blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->'
+    #     text '<link rel="stylesheet" href="../../blueprint/print.css" type="text/css" media="print"><![endif]-->'
+	end
+
+	body do
+  	h1.logo 'BetaBase'
+		#optional: use skip nav img link here if there is lots of nav links
+  	#a.skip_to_main! "Skip to Content", :href=>"#main", :accesskey=>"1"
+		div.header! do
+			div.nav.first do
+				link_to 'PROBLEMS', problems_path		
+			end	
+	
+			if logged_in?		
+				div.nav do
+					link_to h(current_user.login.upcase), user_path(current_user), :class=>''		
+				end
+				div.nav do
+						link_to 'LOG OUT', logout_url
+				end
+				if current_user.has_role?('administrator')
+					div.nav do
+						link_to 'ADMIN', users_path
+					end
+		    end
+			else
+		   	div.nav do
+					link_to 'LOG IN', root_path		
+				end
+				div.span_3.prepend_1.nav do
+					link_to 'SIGN UP', new_user_path		
+				end
+			end		  	
+ 		end
+   
+  	div.columns! do
+		  if !flash[:error].nil?
+	      div.error flash[:error]
+	    end
+	    if !flash[:notice].nil?
+	      div.notice flash[:notice]
+	    end
+	    if !flash[:message].nil?  
+	      div.message flash[:message]
+	    end
+	
+			if !@content_for_main.nil? 
+				div.main! do
+					@content_for_main
+				end
+			else
+				self << content_for_layout
+			end
+	
+			if !@content_for_sidebar.nil? 
+				div.sidebar! do
+					@content_for_sidebar
+				end
+			end
+						
+		end
+	end
+end

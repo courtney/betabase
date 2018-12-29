@@ -1,0 +1,18 @@
+h2.alt 'You Need an Account!'
+
+div.panel.center do
+  form_tag(session_path) do
+    capture do
+      fieldset do
+        label 'Login', :for=>"login"
+        text_field_tag 'login'
+        label 'Password', :for=>"password"
+        password_field_tag 'password'
+        # Uncomment this if you want this functionality
+        # label 'Remember me:', :for=>"remember_me"
+        #     check_box_tag 'remember_me'
+        submit_tag 'Log in', :class => 'button'
+      end
+    end
+  end
+end
